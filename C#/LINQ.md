@@ -40,7 +40,7 @@ class Sample
         int[] src = {1, 2, 3, 4, 5, 6};
 
         var query = src
-        .Where(x => x > 1 && x < 5>)
+        .Where(x => x > 1 && x < 5)
         .Select(x => x % 3);
         Console.WriteLine("[{0}]", string.Join(" ", query));
 
